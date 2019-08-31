@@ -1,10 +1,11 @@
 ---
 layout: post
-# logo: "🎒"
+logo: "🎒"
 title:  "The Religion of Artificial Intelligence"
 date:   2018-05-09
 categories: Artificial Intelligence
 permalink: /ai/the-religion-of-artificial-intelligence
+description: Artificial Intelligence | Religion
 ---
 
 ![](https://miro.medium.com/max/5184/0*OqhC65kLCBBu3mYU.)

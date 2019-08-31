@@ -1,10 +1,11 @@
 ---
 layout: post
-# logo: "🎒"
+logo: "🎒"
 title:  "Well, the road to Javascript Documentation"
 date:   2018-03-31
 categories: Web
 permalink: /web/well-the-road-to-javascript-documentation
+description: Javascript | Documentation | YUI Doc | JS Doc
 ---
 
 ![](https://miro.medium.com/max/5472/0*68QxeRbiR49St37b.)

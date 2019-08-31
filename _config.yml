@@ -19,7 +19,7 @@ email: div5yesh@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Game & Web Developer. Meticulous Geek. Javascript "Red Belt".
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://divchitroda.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.divchitroda.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: div5yesh
 github_username:  div5yesh
 linkedin_username: div5yesh
@@ -28,6 +28,11 @@ medium_username: div5yesh
 
 google_analytics: UA-118774269-2
 # list_title: Timeline
+
+github:
+  repository_url: https://blog.divchitroda.com
+  repository_name: divchitroda
+  is_project_page: true
 
 # Build settings
 markdown: kramdown

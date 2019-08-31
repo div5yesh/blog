@@ -1,10 +1,11 @@
 ---
 layout: post
-# logo: "🎒"
+logo: "🎒"
 title:  "Turn-based Multiplayer Games in Unity3D using UNet"
 date:   2018-03-22
 categories: Games
 permalink: /games/turn-based-multiplayer-games-in-unity3d-using-unet
+description: Multiplayer Networking | Unity3D | UNet | Turn Based Games
 ---
 
 ![](https://miro.medium.com/max/5383/0*iY1iAPp5hBt6Rc7c.)

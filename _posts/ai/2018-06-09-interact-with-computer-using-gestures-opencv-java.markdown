@@ -1,10 +1,11 @@
 ---
 layout: post
-# logo: "🎒"
+logo: "🎒"
 title:  "Interact with computer using gestures: OpenCV & Java"
 date:   2018-06-09
 categories: Artificial Intelligence
 permalink: /ai/interact-with-computer-using-gestures-opencv-java
+description: Vision | Artificial Intelligence | Image Processing | Gesture Recognition
 ---
 
 ![JARVIS — Pretty cool, right?](https://miro.medium.com/max/1000/1*BxNsGcvZC8IUO33VIYAnNg.jpeg)
