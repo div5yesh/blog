@@ -2,7 +2,7 @@
 layout: post
 # logo: "🎒"
 title:  "Turn-based Multiplayer Games in Unity3D using UNet"
-date:   2018-06-09
+date:   2018-03-22
 categories: Games
 permalink: /games/turn-based-multiplayer-games-in-unity3d-using-unet
 ---
@@ -48,3 +48,5 @@ A *Player Controller* game object is responsible to send player actions like sho
 <script src="https://gist.github.com/div5yesh/cc1fb36a140134dbd34d1b2d5f8330f5.js"></script>
 
 Git Repo **coming soon**!
+
+Originally posted: [medium.com/@div5yesh](https://medium.com/@div5yesh/turn-based-multiplayer-games-in-unity3d-using-unet-abcd8360ddd5)
