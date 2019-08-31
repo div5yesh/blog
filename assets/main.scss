@@ -1,0 +1,31 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+a:hover {
+	text-decoration: none;
+}
+
+.site-header{
+	position: sticky;
+	top: 0;
+
+	background-color: lightgray;
+}
+
+.social-media-list li{
+	display: inline;
+}
+
+.profilepic{
+	width: 150px;
+}
+
+.mybio, .biotext{
+	display: inline-block;
+}
+
+.biotext{
+	width: 65%;
+}

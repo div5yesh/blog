@@ -1,0 +1,234 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: calibri;
+	font-size: 20px;
+}
+
+@media (max-width : 768px) {
+	body{
+		font-size: 13px;
+	}
+}
+/* @media (min-width : 320px) {
+	
+	li.hamburger{
+		display: inline-block;
+	}
+}
+
+li.hamburger {
+	display: none;
+} */
+
+.container{
+	width: 100%;
+}
+
+.content{
+	max-width: 980px;
+	margin: auto;
+}
+
+#main{margin-top: 470px;}
+
+#cover-pic{
+	height: 190px;
+}
+
+.menu ul{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+.show-mobile {
+	display: none;
+}
+
+.show-desktop{
+	display: inline-block;
+}
+
+@media (max-width : 960px) {
+	.show-mobile {
+		display: inline-block;
+	}
+
+	.show-desktop{
+		display: none;
+	}
+}
+
+#menulist a.active{
+	color: wheat;
+	background: goldenrod;
+}
+
+.menuitem{list-style: none;padding: 0;margin: 0;}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 16px 12px;
+	display: inline-block;
+}
+
+.menu li a:hover{
+	color: goldenrod;
+	/* background-color: azure; */
+	/* box-shadow: 0px 11px 36px 0px white; */
+}
+
+.menubar{
+	position: sticky;
+	position: -webkit-sticky;
+	background-color: #a93a5c;
+	top: 0;
+}
+
+#main-content{padding: 70px 0 70px 12px;}
+
+#header{
+	/* top: 0; */
+	background-attachment: fixed;
+	background-position-y: -280px;
+	background-position-x: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('cover-pic-cropped.jpg');
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #header{
+		background-position-y: -30px;
+		background-size: contain;
+	}
+
+	#cover-pic{
+		height: 80px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #header{
+		background-position-y: -110px;
+		background-size: cover;
+	}
+
+	#cover-pic{
+		height: 90px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #header{
+		background-position-y: -160px;
+		background-size: cover;
+	}
+
+	#cover-pic{
+		height: 110px;
+	}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #header{
+		background-position-y: -170px;
+		background-size: contain;
+	}
+
+	#cover-pic{
+		height: 130px;
+	}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #header{
+		background-position-y: -260px;
+		background-size: cover;
+	}
+
+	#cover-pic{
+		height: 190px;
+	}
+}
+
+
+/* @media (max-width : 960px) {
+	#header{
+		background-position-y: -150px;
+		background-size: contain;
+	}
+
+	#cover-pic{
+		height: 80px;
+	}
+}
+
+@media (max-width : 420px) {
+	#header{
+		background-position-y: -40px;
+		background-size: contain;
+	}
+
+	#cover-pic{
+		height: 80px;
+	}
+} */
+
+#name{/* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */font-size: 2em;/* padding: 5px 5px; */color: white;padding-left: 12px;}
+
+#title{/* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */font-size: 1.5em;color: white;padding: 0px 0px 15px 12px;}
+
+#footer{
+	/* position: fixed; */
+	height: 56px;
+	bottom: 0;
+	/* background-color: chocolate; */
+}
+
+#copyright{
+	text-align: center;
+	color: #0000004f;
+	/* border-top: 1px solid gray; */
+	padding: 15px 0 15px 12px;
+	display: inline-block;
+}
+
+#social-links{ float: right;}
+
+#social-links a{
+	text-decoration: none;
+	color: white;
+	padding: 16px 12px;
+	font-size: 1em;
+	display: inline-block;
+}
+#social-links a:hover {
+	/* font-size: 24px; */
+	box-shadow: 0px 11px 36px 0px white;
+}
+.hamburger-content {
+	background-color: #a93a5c;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position:  fixed;
+	display: none;
+}
+
+#footer .content{
+	border-top: 1px solid gray;
+}
+
+#footer #social-links a{
+	color: #0000004f;
+}
+
+.timeline .title{font-size: 1.3em;}
