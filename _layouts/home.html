@@ -16,7 +16,8 @@ layout: default
 	  <!-- {%- if post.categories[0] != "Projects" and post.categories[0] != "Experiments" -%} -->
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">{{ post.date | date: date_format }}</span> &middot;
+        <span><a href="{{post.url}}#disqus_thread">Comments</a></span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
